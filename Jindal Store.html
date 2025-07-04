@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/icon" href="https://i.pinimg.com/736x/4c/f7/b8/4cf7b8fa13224525d7a0a5480c4cb56d.jpg">
+    <title>Jindal Store</title>
+
+    <!--Code for font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Code for font awesome cdn-->
+
+    <!--Code for limking css file-->
+    <link rel="stylesheet" type="text/css" href="Jindal Store.css">
+    <!--Code for limking css file-->
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <!--header section-->
+    <header class="header">
+        <a href="#" class="logo"> <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            Jindal Store</a>
+
+        <!--navbar section-->
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#categories">Categories</a>
+            <a href="#products">Products</a>
+            <a href="#footer">Contact Us</a>
+        </nav>
+        <!--navbar section-->
+
+        <div class="icons">
+            <div class="fa fa-align-justify" id="menu-lines"></div>
+            <div class="fa fa-search" id="search"></div>
+            <div class="fa fa-cart-plus" id="shopping"></div>
+            <div onclick="window.location.href='login.html'" class="fa fa-user-circle-o" id="login-user"></div>
+        </div>
+
+        <form class="search-form">
+            <input type="search" id="search-box" placeholder="Search Here">
+            <label for="search-box" class="fa fa-search"></label>
+        </form>
+
+    </header>
+    <!--header section-->
+
+    <!--banner section-->
+    <section class="home" id="home">
+        <div class="content">
+            <h1>Jindal Store</h1>
+            <p>Elevating <span>Everyday</span> Essentials</p>
+            <a href="#features" class="explore">Explore</a>
+        </div>
+    </section>
+    <!--banner section-->
+
+    <!--feature section-->
+    <section class="features" id="features">
+        <h1 class="fheading"> Our <span> Features </span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Elevating</h3>
+                <p>JS aims to enhance the shopping experience by providing intuitive navigation, showcasing
+                    unique selling points, and highlighting product value propositions to persuade customers.</p>
+
+            </div>
+            <div class="box">
+                <h3>Everyday</h3>
+                <p>JS prioritizes customer satisfaction by offering a diverse range of products, including
+                    household essentials, groceries, personal care items, and clothing basics, to meet their daily
+                    needs.</p>
+
+            </div>
+            <div class="box">
+                <h3>Essentials</h3>
+                <p>In order to gain the trust and loyalty of its customers, JS concentrates on offering necessities,
+                    such as food, groceries, personal care items, and household goods, at low prices while maintaining
+                    high standards of quality and availability.</p>
+            </div>
+
+        </div>
+
+    </section>
+    <!--feature section-->
+
+    <!--categories section-->
+    <section class="categories" id="categories">
+        <h1 class="fheading"> product <span>categories</span></h1>
+        <div class="box-container">
+
+            <div class="box">
+                <img src="../Images/dairy-products.jpg" alt="dairy products">
+                <h3>Dairy Products</h3>
+                <a href="#dairy-products" class="btn"> more </a>
+            </div>
+
+            <div class="box">
+                <img src="../Images/bakery products.png" alt="bakery products">
+                <h3>Bakery Products</h3>
+                <a href="#bakery-products" class="btn"> more </a>
+            </div>
+
+            <div class="box">
+                <img src="../Images/Canned and Packaged Goods.png" alt="Canned and Packaged Goods">
+                <h3>Canned and Packed Products</h3>
+                <a href="#caned&paked-products" class="btn"> more </a>
+            </div>
+
+            <div class="box">
+                <img src="../Images/Cold Drinks.jpg" alt="Baverages">
+                <h3>Baverages</h3>
+                <a href="#Beverages-products" class="btn"> more </a>
+            </div>
+
+            <div class="box">
+                <img src="../Images/snakes.jpg" alt="Snacks">
+                <h3>Snacks</h3>
+                <a href="#snacks-products" class="btn"> more </a>
+            </div>
+
+            <div class="box">
+                <img src="../Images/Condiments and Spices.jpg" alt="Condiments and Spices">
+                <h3>Condiments and Spices</h3>
+                <a href="#" class="btn"> more </a>
+            </div>
+
+            <div class="box">
+                <img src="../Images/Household and Cleaning Supplies.jpeg"
+                    alt="Household and Cleaning Supplies">
+                <h3>Household and Cleaning Supplies</h3>
+                <a href="#Household&cleaning-products" class="btn"> more </a>
+            </div>
+
+            <div class="box">
+                <img src="../Images/personal care.jpeg" alt="personal care">
+                <h3>Personal care</h3>
+                <a href="#personal-care-products" class="btn"> more </a>
+            </div>
+
+            <div class="box">
+                <img src="../Images/baby.jpeg" alt="Baby and Infant Products">
+                <h3>Baby and Infant Products</h3>
+                <a href="#baby-products" class="btn"> more </a>
+            </div>
+
+        </div>
+    </section>
+    <!--categories section-->
+
+    <!--product section-->
+    <section class="products" id="products">
+        <h1 class="fheading">our <span>products</span></h1>
+        <div class="swiper product-slider" id="dairy-products">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="../Images/milk.jpg" alt="milk">
+                    <h1>milk</h1>
+                    <div class="price">
+                        10 &#8377 -- 35 &#8377
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="../Images/dahi.jpg" alt="dahi">
+                    <h1>Curd</h1>
+                    <div class="price">
+                        10 &#8377 -- 50 &#8377
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="../Images/lassi.jpg" alt="lassi">
+                    <h1>Lassi</h1>
+                    <div class="price">
+                        5 &#8377 -- 15 &#8377
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="../Images/butter.jpg" alt="butter">
+                    <h1>butter</h1>
+                    <div class="price">
+                        10 &#8377 -- 55 &#8377
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="swiper product-slider" id="bakery-products">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="../Images/bread.jpg" alt="bread">
+                    <h1>bread</h1>
+                    <div class="price">
+                        10 &#8377 -- 50 &#8377
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="../Images/cakes.jpg" alt="cakes">
+                    <h1>cakes</h1>
+                    <div class="price">
+                        5 &#8377 -- 30 &#8377
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="../Images/cokkies.jpg" alt="cookies">
+                    <h1>cookies</h1>
+                    <div class="price">
+                        30 &#8377 -- 150 &#8377
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="../Images/toast and khari.jpg" alt="toast and khari">
+                    <h1>toast and khari</h1>
+                    <div class="price">
+                        10 &#8377 -- 70 &#8377
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="swiper product-slider" id="caned&paked-products">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="../Images/oil.png" alt="cooking oils">
+                    <h1>cooking oils</h1>
+                    <div class="price">
+                        40 &#8377 -- 150 &#8377
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="../Images/sauce.jpg" alt="sauce">
+                    <h1>sauce</h1>
+                    <div class="price">
+                        2 &#8377 -- 100 &#8377
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="../Images/grains.jpeg" alt="grains">
+                    <h1>all grains</h1>
+                    <div class="price">
+                        40 &#8377 -- 500 &#8377
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="../Images/maggie.jpg" alt="Maggie">
+                    <h1>Maggie & pasta</h1>
+                    <div class="price">
+                        10 &#8377 -- 70 &#8377
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="swiper product-slider" id="Beverages-products">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="../Images/cold drinks.png" alt="soft drinks">
+                    <h1>soft drinks</h1>
+                    <div class="price">
+                        10 &#8377 -- 100 &#8377
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="../Images/energy drinks.jpg" alt="energy drinks">
+                    <h1>energy drinks</h1>
+                    <div class="price">
+                        30 &#8377 -- 150 &#8377
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="../Images/soda.jpeg" alt="water & soda">
+                    <h1>water & soda</h1>
+                    <div class="price">
+                        20 &#8377 -- 50 &#8377
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="../Images/juice.png" alt="juices">
+                    <h1>juices</h1>
+                    <div class="price">
+                        20 &#8377 -- 150 &#8377
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="swiper product-slider" id="snacks-products">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="../Images/lays.png" alt="Chips">
+                    <h1>Chips</h1>
+                    <div class="price">
+                        5 &#8377 -- 50 &#8377
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="../Images/namkeen.jpg" alt="namkeens">
+                    <h1>namkeens</h1>
+                    <div class="price">
+                        10 &#8377 -- 150 &#8377
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="../Images/Chocoalates.jpg" alt="choclates">
+                    <h1>choclates</h1>
+                    <div class="price">
+                        5 &#8377 -- 250 &#8377
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="../Images/candies.jpg" alt="candies">
+                    <h1>candies</h1>
+                    <div class="price">
+                        1 &#8377 -- 20 &#8377
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="swiper product-slider" id="Household&cleaning-products">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="../Images/Laundry_Detergents.jpg" alt="laundry detergents">
+                    <h1>laundry detergents</h1>
+                    <div class="price">
+                        10 &#8377 -- 200 &#8377
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="../Images/laundry soap.jpg" alt="laundry soap">
+                    <h1>laundry soap</h1>
+                    <div class="price">
+                        10 &#8377 -- 50 &#8377
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="../Images/house cleaning.png" alt="Cleaning products">
+                    <h1>Cleaning products</h1>
+                    <div class="price">
+                        100 &#8377 -- 250 &#8377
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="../Images/cleaning-accessories.jpeg" alt="cleaning accessories">
+                    <h1>cleaning accessories</h1>
+                    <div class="price">
+                        100 &#8377 -- 250 &#8377
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="swiper product-slider" id="personal-care-products">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="../Images/shampoo.jpg" alt="shampoo">
+                    <h1>shampoo</h1>
+                    <div class="price">
+                        1 &#8377 -- 300 &#8377
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="../Images/soap.jpg" alt="soap">
+                    <h1>soap</h1>
+                    <div class="price">
+                        10 &#8377 -- 200 &#8377
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="../Images/gum care.jpg" alt="gum care">
+                    <h1>gum care</h1>
+                    <div class="price">
+                        10 &#8377 -- 200 &#8377
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="../Images/hair oil.jpg" alt="hair oils">
+                    <h1>hair oils</h1>
+                    <div class="price">
+                        10 &#8377 -- 250 &#8377
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="swiper product-slider" id="baby-products">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="../Images/diapers.jpg" alt="daipers">
+                    <h1>diapers</h1>
+                    <div class="price">
+                        10 &#8377 -- 40 &#8377
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="../Images/wipes.png" alt="wipes">
+                    <h1>wipes</h1>
+                    <div class="price">
+                        100 &#8377 -- 150 &#8377
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="../Images/baby care.jpg" alt="baby care">
+                    <h1>baby care</h1>
+                    <div class="price">
+                        70 &#8377 -- 200 &#8377
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="../Images/baby food.jpeg" alt="baby food">
+                    <h1>baby food</h1>
+                    <div class="price">
+                        100 &#8377 -- 500 &#8377
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!--product section-->
+
+    <!--footer section-->
+    <section class="footer" id="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Jindal Store<i class="fa fa-shopping-cart"></i></h3>
+                <p class="eee">Elevating </p>
+                <p class="eee">Everyday</p>
+                <p class="eee">Essentials</p>
+
+                <div class="share">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#www.linkedin.com/in/anshika-aggarwal-4300272bb" class="fa fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Quick Lines</h3>
+                <a href="#home" class="link"> <i class="fa fa-arrow-right"></i>Home </a>
+                <a href="#features" class="link"> <i class="fa fa-arrow-right"></i>Features </a>
+                <a href="#categories" class="link"> <i class="fa fa-arrow-right"></i>Categories </a>
+                <a href="#products" class="link"> <i class="fa fa-arrow-right"></i>Products </a>
+                <a href="#footer" class="link"> <i class="fa fa-arrow-right"></i>Contact </a>
+            </div>
+
+            <div class="box">
+                <h3>Contact Us</h3>
+                <a href="tel:+91 7652821089" class="link"> <i class="fa fa-phone"></i> +91 7652821089 </a>
+                <a href="tel:+91 9780225161" class="link"> <i class="fa fa-phone"></i> +91 9780225161 </a>
+                <a href="mailto:2005anshi1089ind@gmail.com" class="link"> <i class="fa fa-envelope"></i> 2005anshi1089ind@gmail.com</a>
+                <a href="mailto:rekha225161@gmail.com" class="link"> <i class="fa fa-envelope"></i> rekha225161@gmail.com</a>
+                <a href="#" class="link"> <i class="fa fa-map-marker"></i> Mandi Gobindgarh, Punjab, India</a>
+            </div>
+
+        </div>
+
+        <div class="credit">
+            <p>copyright&copy <span> Jindal Store </span> 2022</p>
+            <p>Developed By:<span> Anshika Aggarwal </span> BCS23004</p>
+        </div>
+
+    </section>
+    <!--footer section-->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="Jindal Store.js"></script>
+</body>
+
+</html>
